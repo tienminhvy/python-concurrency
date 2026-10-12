@@ -13,6 +13,7 @@ def cpu_waster(i: int):
 def display_threads():
     print("-" * 10)
     print(f"Current process ID: {os.getpid()}")
+    print(f"Thread count: {threading.active_count()}")
     print("Active threads:")
     for thread in threading.enumerate():
         print(thread)
