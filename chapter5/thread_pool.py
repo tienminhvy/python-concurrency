@@ -1,8 +1,6 @@
 import queue
 import typing as T
-from _contextvars import Context
 from threading import Thread, current_thread
-from typing import Callable, Iterable, Any, Mapping
 
 import time
 
